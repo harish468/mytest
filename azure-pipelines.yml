@@ -11,7 +11,7 @@ jobs:
     inputs:
       packageType: 'sdk'
       installationPath: $(Agent.ToolsDirectory)/dotnet
-      version: '3.1.x'  # Choose the appropriate version
+      version: '3.1.2'  # Choose the appropriate version
 
   - script: dotnet restore
     displayName: 'Restore NuGet Packages'
