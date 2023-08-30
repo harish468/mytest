@@ -1,4 +1,10 @@
 trigger:
+- task: DotNetCoreCLI@2
+  inputs:
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    command: 'build'
 - main  # Define the branch to trigger the pipeline
 
 pool:
